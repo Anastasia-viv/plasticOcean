@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Cormorant-Garamond;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0 auto;
+  top: 0;
+  left: 0%;
+}
+ul,
+li {
+  list-style: none;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.li-nav:first-child {
+  padding-right: 50px;
+}
+
+.aHeader:hover {
+  color: #00aee5;
+  transition: 0.5s;
+}
+
+body {
+  color: #ffffff;
+}
+
+.header {
+  display: block;
+  position: relative;
+}
+.ul-nav {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  padding: 1% 5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  padding: 0 5%;
+}
+
+.flex {
+  display: flex;
+}
+
+.main {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.cont1H1 {
+  font-size: 96px;
+}
+
+.regions {
+  font-size: 26px;
+  line-height: 1.6em;
+  padding: 5%;
+}
+
+.cont1Inner {
+  text-align: center;
+  padding: 20% 0;
+}
+
+.material-symbols-outlined{
+  width: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.li-s2 {
+  border: #00aee5 solid 2px;
+ 
+}
+
+.li-s2 a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8% 0;
+}
+.li-s2:hover{
+  background-color: rgb(0, 174, 229, 0.6);
+  color: #ffffff;
+  cursor: pointer;
+  transform: scale(1.1);
+/*   border: 2px solid white; */
+  transition: 0.3s ease;
+  box-shadow: 10px 10px 10px #0053b8;
+}
+.s2 {
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: #00aee5 solid 2px;
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s2ContH {
+  font-size: 46px;
+  padding: 0 0 9% 0;
+  text-align: center;
+}
+
+.ul-s2 {
+  display: flex;
+  justify-content: center;
+}
+
+.a-s2 {
+  font-size: 22px;
+  text-align: center;
+
+}
+
+.a-s2:hover {
+  color: #002788;
+  transition: 0.6s;
+}
+.grid {
+  display: grid;
+  gap: 10%;
+  text-align: center;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 140px 140px 140px 140px;
+
+  grid-template-areas:
+    "A B C D"
+    "E F G H";
+}
+
+
+.map{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 9%;
+}
